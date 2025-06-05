@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Status</title>
+    <style>
+        body { font-family: sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; background-color: #f0f0f0; margin: 0; }
+        .container { text-align: center; padding: 20px; background-color: white; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        h1 { color: #333; }
+        p { color: #555; }
+        .endpoints { margin-top: 20px; text-align: left; display: inline-block;}
+        .endpoints code { background-color: #e8e8e8; padding: 2px 5px; border-radius: 3px; }
+        .endpoints li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 To-Do API is Running!</h1>
+        <p>You can interact with the API using the following endpoints:</p>
+        <ul class="endpoints">
+            <li><code>GET /api/tasks/</code> — Return all tasks</li>
+            <li><code>POST /api/tasks/</code> — Add a new task</li>
+            <li><code>GET /api/tasks/{id}/</code> — Retrieve a specific task</li>
+            <li><code>PUT /api/tasks/{id}/</code> — Mark as completed / Update a task</li>
+            <li><code>DELETE /api/tasks/{id}/</code> — Delete a task</li>
+        </ul>
+    </div>
+</body>
+</html>
